@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wszystkie Święta?" />
+
+    <ListView
+        android:id="@+id/listViewSwieta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/purple_700"
+        android:dividerHeight="2dp"
+        android:entries="@array/swieta"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/black"
+        android:text=""
+        />
+
+    <ListView
+        android:id="@+id/listViewSwieta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/black"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Dodaj święto" />
+
+    <EditText
+        android:id="@+id/editTextTextDodajSwieto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+       />
+
+    <Button
+        android:id="@+id/buttonDodaj"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700"
+        android:text="Dodaj" />
+
+</LinearLayout>

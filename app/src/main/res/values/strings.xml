@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">powtorzenieListView</string>
+    <string-array name="swieta">
+        <item>Wigilia</item>
+        <item>dzień wagarowicza</item>
+        <item>niedziela</item>
+        <item>Wszystkich Świętych</item>
+        <item>Wielkanoc</item>
+
+    </string-array>
+</resources>
