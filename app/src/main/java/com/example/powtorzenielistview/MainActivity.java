@@ -60,6 +60,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
             String swieto = editTextDodajSwieto.getText().toString();
+            // jeżeli trzeba było by zrobic list view z liczbami to z edit text
+            // przypisujemy liczbe do zmiennej tak 
+            //int liczba = Integer.parseInt(editTextDodajSwieto.getText().toString());
             wszystkieSwieta.add(swieto);
             editTextDodajSwieto.setText("");
             arrayAdapter.notifyDataSetChanged();
